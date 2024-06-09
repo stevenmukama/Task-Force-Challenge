@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		const textOverlay = document.createElement('div');
 		textOverlay.className = 'text-overlay';
-		textOverlay.innerHTML = `<div>${alt}</div><div>${country}</div>`;
+		textOverlay.innerHTML = `<div class="animal-description" >${alt}</div><div class="animal-location">${country}</div>`;
 
 		container.appendChild(image);
 		container.appendChild(textOverlay);
