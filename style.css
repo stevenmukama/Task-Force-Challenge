@@ -83,7 +83,6 @@ body {
 	color: #04a7c2;
 	font-size: 1em;
 	font-family: Poppins, sans-serif;
-	margin-top: 20px;
 	z-index: 1;
 }
 
@@ -102,7 +101,7 @@ body {
 .animal-location {
 	font-family: Poppins;
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 200;
 	line-height: 16.02px;
 	text-align: left;
 }
