@@ -2,7 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	const gallery = document.getElementById('gallery');
 
 	const images = [
-		{ src: 'assets/foxAnimal.png', alt: 'fennec fox', country: 'India' },
+		{
+			src: 'assets/foxAnimal.png',
+			alt: 'fennec<br> fox',
+			country: 'India',
+		},
 		{
 			src: 'assets/whaleAnimal.png',
 			alt: 'humpback whale',

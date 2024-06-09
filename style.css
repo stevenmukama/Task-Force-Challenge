@@ -43,6 +43,10 @@ body {
 	opacity: 0.5;
 }
 
+.image-container:hover {
+	background-color: black;
+}
+
 .image-container .text-overlay {
 	position: absolute;
 	top: 30%;
