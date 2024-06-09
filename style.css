@@ -109,8 +109,8 @@ body {
 
 @media screen and (max-width: 768px) {
 	#gallery {
-		min-width: 400px;
-		min-height: 600px;
+		min-width: 98.5px;
+		height: 600px;
 	}
 	.image-container {
 		width: 100%;
