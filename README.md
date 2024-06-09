@@ -8,10 +8,6 @@
 - Css
 - Javascript
 
-## Live Demo (if available)
-
-[Coming Soon](https://livedemo.com)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -24,11 +20,11 @@ To get a local copy up and running follow these simple example steps.
 
 - clone the repository:
 
-`git clone https://github.com/stevenmukama/CodeChallenge.git`
+`git clone https://github.com/stevenmukama/Task-Force-Challenge.git`
 
 - Go into the project
 
-`cd CodeChallenge`
+`cd Task-Force-Challenge`
 
 - Open the project in your favorite code editor
 
