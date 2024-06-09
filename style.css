@@ -72,10 +72,8 @@ body {
 
 .know-more {
 	display: none;
-	transform: translateY(
-		100%
-	); /* Move the element off the bottom of the container */
-	transition: transform 0.3s ease; /* Animate the movement */
+	transform: translateY(100%);
+	transition: transform 0.3s ease;
 }
 
 .image-container:hover .know-more {
