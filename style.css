@@ -66,6 +66,7 @@ body {
 }
 
 .image-container:hover img {
+	filter: blur(10px);
 	transform: scale(1.1);
 }
 
