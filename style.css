@@ -15,7 +15,6 @@ body {
 .image-container {
 	position: relative;
 	overflow: hidden;
-	width: 293px;
 	height: 588px;
 	background: #282828;
 }
@@ -34,7 +33,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: black;
+	background-color: #090909;
 	opacity: 0.3;
 	height: 100%;
 	transition: opacity 0.3s ease;
@@ -42,7 +41,7 @@ body {
 }
 
 .image-container:hover::before {
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 .image-container .text-overlay {
@@ -66,8 +65,10 @@ body {
 }
 
 .image-container:hover img {
-	filter: blur(10px);
+	filter: blur(7px);
 	transform: scale(1.1);
+	background-color: #2c2c2c;
+	opacity: 0.4;
 }
 
 .know-more {
@@ -114,5 +115,13 @@ body {
 	.image-container {
 		width: 100%;
 		height: 300px;
+	}
+
+	.image-container:hover .know-more {
+		display: none;
+	}
+	.animal-description,
+	.animal-location {
+		display: none;
 	}
 }
