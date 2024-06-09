@@ -24,7 +24,8 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	transition: filter 0.3s ease;
+	transition: transform 0.3s ease, filter 0.3s ease;
+	z-index: 0;
 }
 
 .image-container::before {
@@ -33,18 +34,15 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
-	background-color: #0e0e0e;
+	background-color: black;
 	opacity: 0;
+	height: 100%;
 	transition: opacity 0.3s ease;
+	z-index: 1;
 }
 
 .image-container:hover::before {
-	opacity: 0.5;
-}
-
-.image-container:hover {
-	background-color: black;
+	opacity: 0.7;
 }
 
 .image-container .text-overlay {
@@ -63,12 +61,20 @@ body {
 	transition: opacity 0.3s ease;
 }
 
+.image-container:hover .text-overlay {
+	z-index: 1;
+}
+
 .image-container:hover img {
 	transform: scale(1.1);
 }
 
 .know-more {
 	display: none;
+	transform: translateY(
+		100%
+	); /* Move the element off the bottom of the container */
+	transition: transform 0.3s ease; /* Animate the movement */
 }
 
 .image-container:hover .know-more {
@@ -79,12 +85,14 @@ body {
 	font-size: 1em;
 	font-family: Poppins, sans-serif;
 	margin-top: 20px;
+	z-index: 1;
 }
 
 .know-more svg {
 	width: 24px;
 	height: 24px;
 }
+
 .animal-description {
 	font-family: Poppins, sans-serif;
 	font-size: 22px;
